@@ -6,27 +6,13 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A1F1CB0929F70E46007F8B2A /* Documentation_Git_WorkFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1CAF529F70E44007F8B2A /* Documentation_Git_WorkFlowApp.swift */; };
-		A1F1CB0A29F70E46007F8B2A /* Documentation_Git_WorkFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1CAF529F70E44007F8B2A /* Documentation_Git_WorkFlowApp.swift */; };
-		A1F1CB0B29F70E46007F8B2A /* Documentation_Git_WorkFlowDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1CAF629F70E44007F8B2A /* Documentation_Git_WorkFlowDocument.swift */; };
-		A1F1CB0C29F70E46007F8B2A /* Documentation_Git_WorkFlowDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1CAF629F70E44007F8B2A /* Documentation_Git_WorkFlowDocument.swift */; };
-		A1F1CB0D29F70E46007F8B2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1CAF729F70E44007F8B2A /* ContentView.swift */; };
-		A1F1CB0E29F70E46007F8B2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1CAF729F70E44007F8B2A /* ContentView.swift */; };
-		A1F1CB0F29F70E46007F8B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1CAF829F70E46007F8B2A /* Assets.xcassets */; };
-		A1F1CB1029F70E46007F8B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1CAF829F70E46007F8B2A /* Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		A1F1CAF529F70E44007F8B2A /* Documentation_Git_WorkFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation_Git_WorkFlowApp.swift; sourceTree = "<group>"; };
-		A1F1CAF629F70E44007F8B2A /* Documentation_Git_WorkFlowDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation_Git_WorkFlowDocument.swift; sourceTree = "<group>"; };
-		A1F1CAF729F70E44007F8B2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1F1CAF829F70E46007F8B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F1CAFD29F70E46007F8B2A /* Documentation-Git-WorkFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Documentation-Git-WorkFlow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1CB0029F70E46007F8B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F1CB0529F70E46007F8B2A /* Documentation-Git-WorkFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Documentation-Git-WorkFlow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1CB0729F70E46007F8B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F1CB0829F70E46007F8B2A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A1F1CB1B29F70F08007F8B2A /* GitWorkFlowDoc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GitWorkFlowDoc.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,22 +36,11 @@
 		A1F1CAEF29F70E44007F8B2A = {
 			isa = PBXGroup;
 			children = (
-				A1F1CAF429F70E44007F8B2A /* Shared */,
+				A1F1CB1B29F70F08007F8B2A /* GitWorkFlowDoc.md */,
 				A1F1CAFF29F70E46007F8B2A /* iOS */,
 				A1F1CB0629F70E46007F8B2A /* macOS */,
 				A1F1CAFE29F70E46007F8B2A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		A1F1CAF429F70E44007F8B2A /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				A1F1CAF529F70E44007F8B2A /* Documentation_Git_WorkFlowApp.swift */,
-				A1F1CAF629F70E44007F8B2A /* Documentation_Git_WorkFlowDocument.swift */,
-				A1F1CAF729F70E44007F8B2A /* ContentView.swift */,
-				A1F1CAF829F70E46007F8B2A /* Assets.xcassets */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		A1F1CAFE29F70E46007F8B2A /* Products */ = {
@@ -173,7 +148,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1CB0F29F70E46007F8B2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +155,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1CB1029F70E46007F8B2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,9 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1CB0929F70E46007F8B2A /* Documentation_Git_WorkFlowApp.swift in Sources */,
-				A1F1CB0B29F70E46007F8B2A /* Documentation_Git_WorkFlowDocument.swift in Sources */,
-				A1F1CB0D29F70E46007F8B2A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1CB0A29F70E46007F8B2A /* Documentation_Git_WorkFlowApp.swift in Sources */,
-				A1F1CB0C29F70E46007F8B2A /* Documentation_Git_WorkFlowDocument.swift in Sources */,
-				A1F1CB0E29F70E46007F8B2A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
